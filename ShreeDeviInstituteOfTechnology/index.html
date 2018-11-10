@@ -157,45 +157,23 @@
                             <h4>Inquiry</h4><br><br>
 
                             <div class="row">
-                                <form class="col s12">
+                                <form class="col s12" action="send_email.php" method="post">
                                     <div class="row">
                                         <div class="input-field col s6">
-                                            <input id="first_name" type="text" class="send">
-                                            <label for="first_name"  class="black-text" style="font-size: 120%;">First Name</label>
+                                            <input id="email" type="email" name="mail_sub">
+                                            <label for="email"  class="black-text" style="font-size: 120%;">Email</label>
                                         </div>
-
 
                                         <div class="input-field col s6">
-                                            <input id="last_name" type="text" class="send">
-                                            <label for="last_name" class="black-text" style="font-size: 120%;">Last Name</label>
+                                            <input id="message" type="text" name="mail_msg">
+                                            <label for="message"  class="black-text" style="font-size: 120%;">Message</label>
                                         </div>
+                                        <button class="btn waves-effect waves-light"  class="red" type="submit" name="action">Submit
+                                            <i class="material-icons right">send</i>
+                                        </button>
                                     </div>
-                            </div>
-
-                            <div class="row">
-                                <div class="input-field col s6">
-                                    <input id="phonenumber" type="number" class="send">
-                                    <label class="active" for="phonenumber" style="font-size: 120%; color: black;">Phone number(+91)</label>
-                                </div>
-
-
-
-                                <div class="input-field col s6">
-                                    <input id="email" type="email" class="send">
-                                    <label for="email"  class="black-text" style="font-size: 120%;">Email</label>
-                                </div>
-                            </div>
-
-                            <div class="row">
-                                <div class="input-field col s12">
-                                    <input id="message" type="text" class="send">
-                                    <label for="message"  class="black-text" style="font-size: 120%;">Message</label>
-                                </div>
-                            </div>
-
-                            </form>
-                        </div>
-
+                                </form>
+                             </div>
                     </div>
                 </div>
             </div>
