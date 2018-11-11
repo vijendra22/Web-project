@@ -12,9 +12,9 @@ $mail -> SMTPSecure = 'ss1';
 $mail -> Host = "smtp.gmail.com";
 $mail -> Port = 465;
 $mail -> IsHTML(true);
-$mail -> Username = "demoemailaddressSDIT@yahoo.com";
+$mail -> Username = "demoemailaddressSDIT@gmail.com";
 $mail -> Password = "demoemailpasswordSDIT";
-$mail -> SetFrom("demoemailaddressSDIT@yahoo.com");
+$mail -> SetFrom("demoemailaddressSDIT@gmail.com");
 
 $mail -> Subject = $mailSub;
 $mail -> Body = $mailMsg;
